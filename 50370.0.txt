@@ -1,0 +1,46 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+## 1 AT A TIME
+
+@9
+MOV 18 ACC
+NR:SUB 1
+SAV
+MOV 30 ACC
+NXTLFT: SUB 1
+JLZ ROWEND
+MOV ACC DOWN
+SWP
+MOV ACC DOWN
+MOV 3 DOWN #WHITE
+MOV -1 DOWN #STOP
+SWP
+JMP NXTLFT
+ROWEND:SWP
+JMP NR
+
+@10
+

@@ -1,0 +1,43 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+## REDUCE INSTR?
+
+@9
+MOV 0 DOWN
+MOV ACC DOWN
+SAV
+MOV 30 ACC
+COLOR:MOV 3 DOWN
+SUB 1
+JEZ NR
+JMP COLOR
+NR:
+MOV -1 DOWN
+SWP
+ADD 1
+
+@10
+
